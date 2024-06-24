@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+/* AGENT LIST */
+.agent-list-container{
+    border: solid black 2px;
+    width: max-content;
+    display: flex;
+    margin: 15px;
+    background-color: #111;
+}
+
+.agent-list-container:hover{
+    box-shadow: 2px 2px 4px #111;
+}
+
+.agent-list-img{
+    width: 400px ;
+}
+
+.agent-list-name{
+    color: #fa4454;
+    margin-left: 10px;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    
+}
+
+.agent-list{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: #364966;
+}
+
+.agent-header{
+    grid-column: 1 / -1;
+    padding: 15px;
+    text-shadow: 1px 1px 2px #111;
+    color: white;
+    font-size: 45px;
+}
+
+/* WEAPON LIST */
+.weapons-list-container{
+    border: solid black 2px;
+    width: 90%;
+    height: 400px;
+    margin: 15px;
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.weapons-list-container:hover{
+    box-shadow: 2px 2px 4px #111;
+}
+
+.weapons-list-img{
+    width: 80%;
+}
+
+.weapon-list{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: #364966;
+}
+
+.weapons-header{
+    grid-column: 1 / -1;
+    padding: 15px;
+    text-shadow: 1px 1px 2px #111;
+    color: white;
+    font-size: 45px;
+}
+
+.weapons-list-name{
+    color: white;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.weapon-link{
+    text-decoration: none;
+}
+
+
+/* NAV BAR */
+.nav-bar{
+    height: 70px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: #fa4454;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: #111;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer-header{
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* HOME */
+
+.home-box-agent{
+    width: 400px;
+    height: 800px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+    background-image: url("https://media.valorant-api.com/playercards/3432dc3d-47da-4675-67ae-53adb1fdad5e/largeart.png");
+}
+
+.home-box-weapon{
+    width: 400px;
+    height: 800px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+    background-image: url("https://media.valorant-api.com/playercards/adbd4077-4f0f-57c7-d9cd-7e9bc4244646/largeart.png");
+}
+
+.home-main-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-header{
+    padding: 15px;
+    text-shadow: 1px 1px 2px #111;
+    color: white;
+    font-size: 45px;
+}
+
+.home{
+    background-color: #04b3e5;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.box-h1{
+    color: #e6d8d8;
+    text-shadow: 2px 2px 3px black;
+    font-size: 45px;
+}
+
+.home-p{
+    align-self: center;
+    color: #111;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.home-box-agent:hover{
+    box-shadow: 2px 2px 4px #111;
+}
+
+.home-box-weapon:hover{
+    box-shadow: 2px 2px 4px #111;
+}
+
+
+/* AGENT DETAIL CARD */
+.agent-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    color: white;
+    
+}
+
+.agent-portrait{
+    width: 900px;
+    grid-column: 1;
+    margin-top: 150px;
+    
+}
+
+.ability-icon{
+    background-color: #111;
+    width: 200px;
+    height: 200px;
+}
+
+.ability-container{
+    display: grid;
+    grid-template-columns: 200px 500px;
+    padding: 15px;
+    margin-top: 75px;
+}
+
+.ability-text{
+    margin-left: 15px;
+}
+
+.agent-card-name{
+    font-size: 40px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.agent-card-role{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.agent-card-description{
+    font-size: 20px;
+}
+
+.ability-text-header{
+    font-size: 25px;
+    margin: 0;
+}
+
+.ability-text-description{
+    font-size: 16px;
+}
+
+.back-to-agents:hover{
+    font-weight: bold;
+    
+}
+
+/* WEAPON DATA CARD */
+
+.weapon-data-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 20px;
+    background-color: #364966;
+    color: white;
+    text-shadow: 1px 1px 2px #111;
+}
+
+.weapon-img{
+    grid-column: 1 / 3;
+    width: 50%;
+    padding-top: 80px;
+}
+
+.weapon-alt-stats{
+    grid-column: 4;
+    grid-row: 2;  
+    margin-top: 50px;
+}
+
+.skin-image{
+    width: 100%;
+}
+
+.weapon-skin-h1{
+    grid-column: 1/5;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #111;
+}
+
+.weapon-basic-data{
+    font-size: 30px;
+}
+
+.back-to-weapons{
+    grid-row: 1;
+    grid-column: 4;
+    width: min-content;
+    height: min-content;
+}
+
+.weapon-base-stats{
+    grid-column: 4;
+    grid-row: 1;
+    margin-top: 50px;     
+}
+
+.melee-container{
+    display: flex;
+    grid-column: 1/3;
+    margin-bottom: 50px;
+}
+
+.melee-name{
+    font-size: 60px;
+    margin-left: 150px;
+}
+
+.melee-img{
+    width: 600px;
+    padding-top: 80px;
+}
+
+.skin-container{
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.gun-container{
+    display: flex;
+    grid-column: 1 / 5;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    
+}
